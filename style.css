@@ -1,0 +1,188 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
+}
+:root{
+    --highlight-color: #FF136F;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* nav css */
+.nav-item a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+/* carousel css */
+.hero{
+    background:white ;
+    padding-top: 63px;
+}
+.carousel{
+    
+    background: #FEEAE9;
+    padding: 38px 63px 39px 46px
+
+}
+
+.carousel-item h1{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84px;
+
+}
+
+.carousel-item h2{
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 61px;
+    color: var(--highlight-color);
+}
+
+.carousel-item a{
+    display: inline-block;
+    padding: 14px 20px;
+    background: linear-gradient(180deg, #FF589B -0.01%, var(--highlight-color) 99.99%);
+    border-radius: 6px;
+    color: white;
+    
+
+}
+
+.carousel-item a span{
+    margin-right:10px ;
+}
+
+/* Categories css */
+.Categories{
+    margin-top:63px;
+}
+
+.Categories  h3{
+
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    
+
+}
+.Categories .item>h3{
+    color: white;
+}
+
+
+.Categories .item1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    border-radius: 10px;
+}
+
+.Categories .item2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+
+    border-radius: 10px;
+    
+}
+
+
+.Categories .item3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+
+
+    border-radius: 10px;
+}
+
+
+/* shoes-Categories css */
+
+.Collection .card-body h5{
+ 
+font-size: 24px;
+color: #1F1F1F;
+text-align: center;
+font-weight: 600;
+line-height: 36px;
+
+
+}
+
+
+.Collection  .card-body p{
+    
+    font-size: 16px;
+    
+    font-weight: 400;
+    line-height: 26px;
+    color: #4E4E4E;
+
+    text-align: center;
+
+}
+
+.Collection  .card-body .Button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Collection  .card-body .Button a{
+
+    display: inline-block;
+    padding: 14px 20px;
+    background:black;
+    border-radius: 6px;
+    color: white;
+
+}
+
+.Collection  .card-body .Button a span{
+    margin-right:10px ;
+}
+
+
+/*form css*/
+.form-section{
+    background-color:white ;
+    padding: 71px 117px;
+    margin-top: 86px;
+}
+.form{
+    padding: 146px 265px;
+    background: #FFF2F1;
+    
+
+}
+.details{
+    text-align: center;
+}
+
+
+.details h4{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #1F1F1F;
+}
+
+.details p{
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #707070;
+}
+
+.form .btn{
+
+    background-color: var(--highlight-color);
+    color: white;
+}
