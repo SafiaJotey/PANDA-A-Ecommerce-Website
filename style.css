@@ -6,7 +6,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #E5E5E5;
+    background:white;
 }
 :root{
     --highlight-color: #FF136F;
@@ -25,12 +25,9 @@ a{
 }
 
 /* carousel css */
-.hero{
-    background:white ;
-    padding-top: 63px;
-}
+
 .carousel{
-    
+    margin-top: 63px;
     background: #FEEAE9;
     padding: 38px 63px 39px 46px
 
@@ -102,7 +99,12 @@ a{
     border-radius: 10px;
 }
 
-
+.all-collection{
+    margin-top: 64px;
+        background: #F4F4F4;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
 /* shoes-Categories css */
 
 .Collection .card-body h5{
@@ -144,6 +146,9 @@ line-height: 36px;
     color: white;
 
 }
+.mrgn{
+    margin-top: 35px;
+}
 
 .Collection  .card-body .Button a span{
     margin-right:10px ;
@@ -151,38 +156,37 @@ line-height: 36px;
 
 
 /*form css*/
+
 .form-section{
-    background-color:white ;
-    padding: 71px 117px;
-    margin-top: 86px;
-}
-.form{
-    padding: 146px 265px;
-    background: #FFF2F1;
-    
+    background: #FEEAE9;
+    margin-top: 64px;
+    padding: 146px 0;
 
-}
-.details{
-    text-align: center;
 }
 
 
-.details h4{
+
+.form-section h3{
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
     color: #1F1F1F;
 }
 
-.details p{
+.form-section p{
     font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 color: #707070;
 }
 
-.form .btn{
-
-    background-color: var(--highlight-color);
+.form-section a{
+    display: inline-block;
+    padding:5px 10px;
+    background: linear-gradient(180deg, #FF589B -0.01%, var(--highlight-color) 99.99%);
+    border-radius: 6px;
     color: white;
+    
+
 }
+
